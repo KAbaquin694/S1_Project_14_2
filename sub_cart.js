@@ -5,8 +5,8 @@
    Tutorial 12
    Case Problem 2
 
-   Author: 
-   Date:   
+   Author: Khalel Abaquin
+   Date:   4.3.19
 
    Filename: sub_cart.js
 
@@ -22,3 +22,13 @@
 
 */
 
+//This line of code loads the function 'setupCart' every time the browser loads.
+window.addEventListener("load", setupCart);
+
+//?
+function setupCart() {
+      var addButtons = document.getElementsByClassName("addButton");
+      for (var i = 0; i < addButtons.length; i++) {
+
+      }
+}
