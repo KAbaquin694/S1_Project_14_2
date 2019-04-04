@@ -29,6 +29,13 @@ window.addEventListener("load", setupCart);
 function setupCart() {
       var addButtons = document.getElementsByClassName("addButton");
       for (var i = 0; i < addButtons.length; i++) {
-
+            addButtons.addEventListener("click", addItem); //???
       }
+}
+
+//?
+function addItem() {
+      // var foodItem = document.getElementById("").nextElementSibling;
+      var foodID = foodItem.getAttribute("id");
+      var foodDescription = foodItem.cloneNode();
 }
